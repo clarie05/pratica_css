@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+*{ /*personalização geral*/
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+body{
+    background-image: linear-gradient(45deg, #A2D6F9, #1E96FC);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; /*resolve o problema do gradiente se repetindo ou incompleto*/
+}
+
+p{
+    text-align: justify;
+}
+
+main{
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    padding: 10px;
+    margin: auto; /*mantem o conteudo centralizado independente do tamanho da janela*/
+    border-radius: 10px;
+    box-shadow: 7px 5px 40px #072ac8ad;
+    
+}
+
+h1,h3{
+   color: #FFC600; 
+   text-shadow: 5px 5px 5px #b18b022a;
+}
